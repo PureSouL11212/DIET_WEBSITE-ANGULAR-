@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { StartbarComponent } from './startbar/startbar.component';
 import { LionComponent } from './lion/lion.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ProfileComponent } from './routing_for_navbar/profile/profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StartbarComponent,
     LionComponent,
-    NavbarComponent
+    NavbarComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
