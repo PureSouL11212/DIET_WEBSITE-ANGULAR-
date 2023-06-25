@@ -10,6 +10,7 @@ import { ProfileComponent } from './routing_for_navbar/profile/profile.component
 import { MissionComponent } from './routing_for_navbar/mission/mission.component';
 import { ImageSliderComponent } from './image-slider/image-slider.component';
 import { HomeComponent } from './home/home.component';
+import { PhotoComponent } from './photo/photo.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HomeComponent } from './home/home.component';
     ProfileComponent,
     MissionComponent,
     ImageSliderComponent,
-    HomeComponent
+    HomeComponent,
+    PhotoComponent
   ],
   imports: [
     BrowserModule,
