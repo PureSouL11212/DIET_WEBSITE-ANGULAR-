@@ -1,0 +1,12 @@
+
+<div class="slider-container">
+    <img [src]="currentImage" alt="Slider Image" class="slider-image">
+    <div class="arrow-container">
+      <button (click)="showPreviousImage()" class="arrow previous-arrow">&#8249;</button>
+      <button (click)="showNextImage()" class="arrow next-arrow">&#8250;</button>
+    </div>
+    <button (click)="toggleSlider()" class="pause-button">
+      {{ isPaused ? 'Play' : 'Pause' }}
+    </button>
+  </div>
+  

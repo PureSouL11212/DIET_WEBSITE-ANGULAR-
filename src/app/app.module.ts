@@ -7,6 +7,9 @@ import { StartbarComponent } from './startbar/startbar.component';
 import { LionComponent } from './lion/lion.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProfileComponent } from './routing_for_navbar/profile/profile.component';
+import { MissionComponent } from './routing_for_navbar/mission/mission.component';
+import { ImageSliderComponent } from './image-slider/image-slider.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { ProfileComponent } from './routing_for_navbar/profile/profile.component
     StartbarComponent,
     LionComponent,
     NavbarComponent,
-    ProfileComponent
+    ProfileComponent,
+    MissionComponent,
+    ImageSliderComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
