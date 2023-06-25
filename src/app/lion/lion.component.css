@@ -1,0 +1,32 @@
+.lion1 {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    width: 95%;
+    height: 78px;
+    margin: 35px;
+   /*  margin-right: 40px; */
+  }
+  
+  .one img {
+    max-width: 100%;
+  }
+  
+  .two {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .two a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .four img {
+    max-width: 100%;
+  }
+  

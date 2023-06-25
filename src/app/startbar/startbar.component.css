@@ -1,0 +1,163 @@
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(244, 246, 246);
+    padding: 0px;
+    height: max-content;
+    margin: -7px;
+  }
+  
+  .right {
+    border: 2px solid rgb(236, 236, 236);
+    text-align: right;
+    padding: 2px 9px ;
+  }
+  .right a {
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 15px;
+  }/*  */
+  .mant {
+    font-size: 15px;
+    text-align: left;
+    border: 2px solid rgb(236, 236, 236);
+    margin-right: auto;
+    padding: 2px 11px;
+  }
+  
+  .skip {
+    text-align: right;
+    height: 20px;
+  }
+  .skip a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 0px;
+    font-size: 18px;
+    width: 0px;
+    border: 2px solid rgb(236, 236, 236);
+  }
+  
+  .social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid rgb(236, 236, 236);
+  }
+  .social a img{
+    height: 20px;
+
+  }
+  .social span a {
+    padding: 3px 3px ;
+  }
+ /*  .social span a img{
+   
+  } */
+  
+  .banner1 {
+    text-align: right;
+  }
+  
+  .language-search-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(236, 236, 236);
+  
+  }
+.language-search-wrapper button{
+
+  padding:5px 9px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: 2px solid green;
+  border-radius: 4px;
+  
+
+}
+.banner1 button{
+
+  color:white;
+
+}
+.language-switcher.inner button{
+  color: red;
+}
+.language-search-wrapper button:hover{
+  background-color: #ffffff;
+color:white;
+}
+  .language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .search1 {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0px 5px;
+  }
+  .search1 button:hover{
+    color: rgb(255, 255, 255);
+    background-color: #198754
+  }
+  
+  .search1 form {
+    display: flex;
+    align-items: center;
+  }
+  .search1 input{
+    height: 25px;
+    padding: 2px 2px;
+  }
+  
+  @media (max-width: 950px) {
+    .box {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .right,
+    .mant,
+    .skip,
+    .social,
+    .banner1,
+    .language-search-wrapper,
+    .search1 {
+      width: 100%;
+      max-width: none;
+      margin: 0;
+    }
+  
+    .language-switcher {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+   
+    
+    
+    .banner1 {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  .in button:hover {
+    color: rgb(255, 255, 255);
+    color: black;
+
+  }
+  .in button{
+    padding: 3px 4px 2px 3px;
+    width: 60px;
+    color: white;
+    background-color: #198754;
+  }
+  .container.bharat {
+    color: red;
+  }
