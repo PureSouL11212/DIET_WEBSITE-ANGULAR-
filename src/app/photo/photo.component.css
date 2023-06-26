@@ -19,6 +19,18 @@
   .but {
     margin: 10px;
   }
+  .but a{
+    border: 2px solid green;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #198754;;
+    color: rgb(255, 255, 255);
+  }
+  .but a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+  }
+
   
   .image-box {
     border: 1px solid #ccc;
