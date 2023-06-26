@@ -14,6 +14,7 @@ import { PhotoComponent } from './photo/photo.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { PdgComponent } from './pdg/pdg.component';
 import { ImageLayoutComponent } from './image-layout/image-layout.component';
+import { FooterimageComponent } from './footerimage/footerimage.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ImageLayoutComponent } from './image-layout/image-layout.component';
     PhotoComponent,
     SlideshowComponent,
     PdgComponent,
-    ImageLayoutComponent
+    ImageLayoutComponent,
+    FooterimageComponent
   ],
   imports: [
     BrowserModule,

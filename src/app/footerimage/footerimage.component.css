@@ -1,0 +1,30 @@
+.row {
+    background-color: #e1e1e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh; /* Set the height to fill the entire viewport */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    /* Adjust spacing and layout for small screens */
+    .row {
+      flex-wrap: wrap;
+      height: auto;
+    }
+    .col {
+      margin-bottom: 10px;
+    }
+    .col a {
+      margin: 0 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Adjust spacing and layout for extra small screens */
+    .col a {
+      margin: 5px;
+    }
+  }
+  
