@@ -44,6 +44,10 @@ import { PoliciesComponent } from './routing_for_navbar/documents/policies/polic
 import { BudgetsComponent } from './routing_for_navbar/documents/budgets/budgets.component';
 import { CitizenComponent } from './routing_for_navbar/documents/citizen/citizen.component';
 import { MajorComponent } from './routing_for_navbar/documents/major/major.component';
+import { SubmitComponent } from './routing_for_navbar/Grievance/submit/submit.component';
+import { GsComponent } from './routing_for_navbar/Grievance/gs/gs.component';
+import { LoksabhaComponent } from './routing_for_navbar/parliaments/loksabha/loksabha.component';
+import { RajyasabhaComponent } from './routing_for_navbar/parliaments/rajyasabha/rajyasabha.component';
 
 @NgModule({
   declarations: [
@@ -89,6 +93,10 @@ import { MajorComponent } from './routing_for_navbar/documents/major/major.compo
     BudgetsComponent,
     CitizenComponent,
     MajorComponent,
+    SubmitComponent,
+    GsComponent,
+    LoksabhaComponent,
+    RajyasabhaComponent,
     
   ],
   imports: [

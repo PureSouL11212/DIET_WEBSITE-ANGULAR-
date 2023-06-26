@@ -32,6 +32,10 @@ import { PoliciesComponent } from './routing_for_navbar/documents/policies/polic
 import { BudgetsComponent } from './routing_for_navbar/documents/budgets/budgets.component';
 import { CitizenComponent } from './routing_for_navbar/documents/citizen/citizen.component';
 import { MajorComponent } from './routing_for_navbar/documents/major/major.component';
+import { GsComponent } from './routing_for_navbar/Grievance/gs/gs.component';
+import { SubmitComponent } from './routing_for_navbar/Grievance/submit/submit.component';
+import { LoksabhaComponent } from './routing_for_navbar/parliaments/loksabha/loksabha.component';
+import { RajyasabhaComponent } from './routing_for_navbar/parliaments/rajyasabha/rajyasabha.component';
 const routes: Routes = [
 {path:'profile',component:ProfileComponent},
 {path:'mission',component:MissionComponent},
@@ -64,6 +68,10 @@ const routes: Routes = [
 {path:'budgets',component:BudgetsComponent},
 {path:'citizens',component:CitizenComponent},
 {path:'major',component:MajorComponent},
+{path:'gs',component:GsComponent},
+{path:'submit',component:SubmitComponent},
+{path:'loksabha',component:LoksabhaComponent},
+{path:'rajyasabha',component:RajyasabhaComponent},
 
 
 
