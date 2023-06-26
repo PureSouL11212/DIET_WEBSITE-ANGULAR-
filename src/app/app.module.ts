@@ -11,6 +11,7 @@ import { MissionComponent } from './routing_for_navbar/mission/mission.component
 import { ImageSliderComponent } from './image-slider/image-slider.component';
 import { HomeComponent } from './home/home.component';
 import { PhotoComponent } from './photo/photo.component';
+import { SlideshowComponent } from './slideshow/slideshow.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PhotoComponent } from './photo/photo.component';
     MissionComponent,
     ImageSliderComponent,
     HomeComponent,
-    PhotoComponent
+    PhotoComponent,
+    SlideshowComponent
   ],
   imports: [
     BrowserModule,
