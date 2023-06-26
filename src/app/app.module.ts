@@ -16,6 +16,12 @@ import { PdgComponent } from './pdg/pdg.component';
 import { ImageLayoutComponent } from './image-layout/image-layout.component';
 import { FooterimageComponent } from './footerimage/footerimage.component';
 import { FooterComponent } from './footer/footer.component';
+import { HistoryComponent } from './routing_for_navbar/history/history.component';
+import { CellsComponent } from './routing_for_navbar/cells/cells.component';
+import { RolesComponent } from './routing_for_navbar/roles/roles.component';
+import { AgenciesComponent } from './routing_for_navbar/agencies/agencies.component';
+import { OrganisationComponent } from './routing_for_navbar/organisation/organisation.component';
+import { WhoComponent } from './routing_for_navbar/who/who.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +38,13 @@ import { FooterComponent } from './footer/footer.component';
     PdgComponent,
     ImageLayoutComponent,
     FooterimageComponent,
-    FooterComponent
+    FooterComponent,
+    HistoryComponent,
+    CellsComponent,
+    RolesComponent,
+    AgenciesComponent,
+    OrganisationComponent,
+    WhoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,14 @@
 /* photo */
+/* .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+} */
 .image-container {
   display: flex;
   justify-content: center;
@@ -8,7 +18,9 @@
 .image-container img {
   max-width: 100%;
   height: auto;
+  margin-top: -16px; /* Adjust this value to shift the image upward */
 }
+
 
 
 
@@ -19,15 +31,7 @@
     align-items: center;
     padding: 27px 10%; /* Adjust the padding value to increase or decrease spacing */
   }
-  
-  .container {
-    /* Add your styles here */
-  }
-  
-  .common-container {
-    /* Add your styles here */
-  }
-  
+
   .align-rt {
     display: flex;
     flex-wrap: wrap;
@@ -79,13 +83,7 @@
     padding: 27px 10%; /* Adjust the padding value to increase or decrease spacing */
   }
   
-  .container {
-    /* Add your styles here */
-  }
-  
-  .common-container {
-    /* Add your styles here */
-  }
+ 
   
   .list {
     margin-left: 0; /* Remove the default left margin */
@@ -126,9 +124,7 @@
     padding: 27px 10%; /* Adjust the padding value to increase or decrease spacing */
   }
   
-  .container {
-    /* Add your styles here */
-  }
+  
   
   .scroller {
     overflow-x: auto; /* Enable horizontal scrolling if the table exceeds the container width */
