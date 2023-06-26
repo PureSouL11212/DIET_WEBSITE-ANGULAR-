@@ -98,4 +98,71 @@
       padding: 27px 5%; /* Adjust the padding value for smaller devices */
     }
   }
+
+
+  /* table */
+
+
+/* Common styles for wrapper and container */
+.wrapper1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 27px 10%; /* Adjust the padding value to increase or decrease spacing */
+  }
   
+  .container {
+    /* Add your styles here */
+  }
+  
+  .scroller {
+    overflow-x: auto; /* Enable horizontal scrolling if the table exceeds the container width */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000; /* Add a border around the table */
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    border: 1px solid #000; /* Add borders to the table cells */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Add a background color to the table header */
+  }
+  
+  /* Media Query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      padding: 27px 5%; /* Adjust the padding value for smaller devices */
+    }
+  
+    /* Adjust table cell padding for smaller devices */
+    th,
+    td {
+      padding: 6px;
+    }
+  
+    /* Hide table headers on smaller devices */
+    th {
+      display: none;
+    }
+  
+    /* Make table rows display as blocks for smaller devices */
+    tr {
+      display: block;
+      margin-bottom: 12px; /* Add spacing between rows */
+    }
+  
+    /* Add border and background color to alternate rows for better readability on smaller devices */
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  }
+  
+
+
