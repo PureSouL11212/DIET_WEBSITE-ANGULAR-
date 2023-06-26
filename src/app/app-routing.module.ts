@@ -21,6 +21,10 @@ import { VideoComponent } from './routing_for_navbar/media/video/video.component
 import { PressComponent } from './routing_for_navbar/media/press/press.component';
 import { SpeechesComponent } from './routing_for_navbar/media/speeches/speeches.component';
 import { EbookComponent } from './routing_for_navbar/media/ebook/ebook.component';
+import { RIAComponent } from './routing_for_navbar/actionsandrules/ria/ria.component';
+import { OtrComponent } from './routing_for_navbar/actionsandrules/otr/otr.component';
+import { Service1Component } from './routing_for_navbar/services/service1/service1.component';
+import { Service2Component } from './routing_for_navbar/services/service2/service2.component';
 const routes: Routes = [
 {path:'profile',component:ProfileComponent},
 {path:'mission',component:MissionComponent},
@@ -42,6 +46,12 @@ const routes: Routes = [
 {path:'press',component:PressComponent},
 {path:'speeches',component:SpeechesComponent},
 {path:'ebook',component:EbookComponent},
+{path:'RIA',component:RIAComponent},
+{path:'otr',component:OtrComponent},
+{path:'service1',component:Service1Component},
+{path:'service2',component:Service2Component},
+
+
 
 
 
