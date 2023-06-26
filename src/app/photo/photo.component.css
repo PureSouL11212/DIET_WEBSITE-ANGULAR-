@@ -23,7 +23,8 @@
     border: 2px solid green;
     border-radius: 6px;
     text-decoration: none;
-    background-color: #198754;;
+    background-color: #198754;
+    text-align: center;
     color: rgb(255, 255, 255);
   }
   .but a:hover{
