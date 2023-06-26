@@ -31,7 +31,7 @@
   
   .paragraph-image img {
     height: 132px;
-    
+
   }
   
   /* Media Query for responsiveness */
@@ -52,6 +52,50 @@
   
     .paragraph-text {
       width: 100%; /* Set the width to 100% for smaller devices */
+    }
+  }
+  
+
+
+  .wrapper {
+    display: flex;
+    justify-content: flex-start; /* Align content to the left side */
+    align-items: center;
+    padding: 27px 10%; /* Adjust the padding value to increase or decrease spacing */
+  }
+  
+  .container {
+    /* Add your styles here */
+  }
+  
+  .common-container {
+    /* Add your styles here */
+  }
+  
+  .list {
+    margin-left: 0; /* Remove the default left margin */
+    padding-left: 0; /* Remove the default left padding */
+  }
+  
+  .list-circle ul,
+  .list-bullet ul {
+    list-style-type: none; /* Remove the default list style */
+  }
+  
+  .list-circle ul li:before {
+    content: "○"; /* Use a circle symbol as a bullet point */
+    margin-right: 10px; /* Adjust the spacing between the bullet point and the list item */
+  }
+  
+  .list-bullet ul li:before {
+    content: "•"; /* Use a bullet symbol as a bullet point */
+    margin-right: 10px; /* Adjust the spacing between the bullet point and the list item */
+  }
+  
+  /* Media Query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      padding: 27px 5%; /* Adjust the padding value for smaller devices */
     }
   }
   
