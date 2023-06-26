@@ -26,6 +26,13 @@ import { AnnouncementsComponent } from './routing_for_navbar/notices/announcemen
 import { RecruitmentsComponent } from './routing_for_navbar/notices/recruitments/recruitments.component';
 import { CircularsComponent } from './routing_for_navbar/notices/circulars/circulars.component';
 import { EventsComponent } from './routing_for_navbar/notices/events/events.component';
+import { WhatsnewComponent } from './routing_for_navbar/media/whatsnew/whatsnew.component';
+import { AwardsComponent } from './routing_for_navbar/media/awards/awards.component';
+import { VideoComponent } from './routing_for_navbar/media/video/video.component';
+import { PressComponent } from './routing_for_navbar/media/press/press.component';
+import { SpeechesComponent } from './routing_for_navbar/media/speeches/speeches.component';
+import { EbookComponent } from './routing_for_navbar/media/ebook/ebook.component';
+import { PhotossComponent } from './routing_for_navbar/media/photoss/photoss.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +59,14 @@ import { EventsComponent } from './routing_for_navbar/notices/events/events.comp
     AnnouncementsComponent,
     RecruitmentsComponent,
     CircularsComponent,
-    EventsComponent
+    EventsComponent,
+    WhatsnewComponent,
+    AwardsComponent,
+    VideoComponent,
+    PressComponent,
+    SpeechesComponent,
+    EbookComponent,
+    PhotossComponent
   ],
   imports: [
     BrowserModule,

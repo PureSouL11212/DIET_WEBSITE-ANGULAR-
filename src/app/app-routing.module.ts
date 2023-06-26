@@ -14,6 +14,13 @@ import { AnnouncementsComponent } from './routing_for_navbar/notices/announcemen
 import { RecruitmentsComponent } from './routing_for_navbar/notices/recruitments/recruitments.component';
 import { CircularsComponent } from './routing_for_navbar/notices/circulars/circulars.component';
 import { EventsComponent } from './routing_for_navbar/notices/events/events.component';
+import { WhatsnewComponent } from './routing_for_navbar/media/whatsnew/whatsnew.component';
+import { AwardsComponent } from './routing_for_navbar/media/awards/awards.component';
+import { PhotossComponent } from './routing_for_navbar/media/photoss/photoss.component';
+import { VideoComponent } from './routing_for_navbar/media/video/video.component';
+import { PressComponent } from './routing_for_navbar/media/press/press.component';
+import { SpeechesComponent } from './routing_for_navbar/media/speeches/speeches.component';
+import { EbookComponent } from './routing_for_navbar/media/ebook/ebook.component';
 const routes: Routes = [
 {path:'profile',component:ProfileComponent},
 {path:'mission',component:MissionComponent},
@@ -28,6 +35,13 @@ const routes: Routes = [
 {path:'recruitments',component:RecruitmentsComponent},
 {path:'circulars',component:CircularsComponent},
 {path:'events',component:EventsComponent},
+{path:'whats',component:WhatsnewComponent},
+{path:'awards',component:AwardsComponent},
+{path:'photoss',component:PhotossComponent},
+{path:'video',component:VideoComponent},
+{path:'press',component:PressComponent},
+{path:'speeches',component:SpeechesComponent},
+{path:'ebook',component:EbookComponent},
 
 
 
