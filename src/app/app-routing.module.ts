@@ -25,6 +25,13 @@ import { RIAComponent } from './routing_for_navbar/actionsandrules/ria/ria.compo
 import { OtrComponent } from './routing_for_navbar/actionsandrules/otr/otr.component';
 import { Service1Component } from './routing_for_navbar/services/service1/service1.component';
 import { Service2Component } from './routing_for_navbar/services/service2/service2.component';
+import { PublicationsComponent } from './routing_for_navbar/documents/publications/publications.component';
+import { ReportsComponent } from './routing_for_navbar/documents/reports/reports.component';
+import { OfficeComponent } from './routing_for_navbar/documents/office/office.component';
+import { PoliciesComponent } from './routing_for_navbar/documents/policies/policies.component';
+import { BudgetsComponent } from './routing_for_navbar/documents/budgets/budgets.component';
+import { CitizenComponent } from './routing_for_navbar/documents/citizen/citizen.component';
+import { MajorComponent } from './routing_for_navbar/documents/major/major.component';
 const routes: Routes = [
 {path:'profile',component:ProfileComponent},
 {path:'mission',component:MissionComponent},
@@ -50,6 +57,17 @@ const routes: Routes = [
 {path:'otr',component:OtrComponent},
 {path:'service1',component:Service1Component},
 {path:'service2',component:Service2Component},
+{path:'publications',component:PublicationsComponent},
+{path:'reports',component:ReportsComponent},
+{path:'office',component:OfficeComponent},
+{path:'policies',component:PoliciesComponent},
+{path:'budgets',component:BudgetsComponent},
+{path:'citizens',component:CitizenComponent},
+{path:'major',component:MajorComponent},
+
+
+
+
 
 
 

@@ -37,6 +37,13 @@ import { RIAComponent } from './routing_for_navbar/actionsandrules/ria/ria.compo
 import { OtrComponent } from './routing_for_navbar/actionsandrules/otr/otr.component';
 import { Service1Component } from './routing_for_navbar/services/service1/service1.component';
 import { Service2Component } from './routing_for_navbar/services/service2/service2.component';
+import { PublicationsComponent } from './routing_for_navbar/documents/publications/publications.component';
+import { ReportsComponent } from './routing_for_navbar/documents/reports/reports.component';
+import { OfficeComponent } from './routing_for_navbar/documents/office/office.component';
+import { PoliciesComponent } from './routing_for_navbar/documents/policies/policies.component';
+import { BudgetsComponent } from './routing_for_navbar/documents/budgets/budgets.component';
+import { CitizenComponent } from './routing_for_navbar/documents/citizen/citizen.component';
+import { MajorComponent } from './routing_for_navbar/documents/major/major.component';
 
 @NgModule({
   declarations: [
@@ -75,6 +82,13 @@ import { Service2Component } from './routing_for_navbar/services/service2/servic
     OtrComponent,
     Service1Component,
     Service2Component,
+    PublicationsComponent,
+    ReportsComponent,
+    OfficeComponent,
+    PoliciesComponent,
+    BudgetsComponent,
+    CitizenComponent,
+    MajorComponent,
     
   ],
   imports: [
