@@ -22,6 +22,10 @@ import { RolesComponent } from './routing_for_navbar/roles/roles.component';
 import { AgenciesComponent } from './routing_for_navbar/agencies/agencies.component';
 import { OrganisationComponent } from './routing_for_navbar/organisation/organisation.component';
 import { WhoComponent } from './routing_for_navbar/who/who.component';
+import { AnnouncementsComponent } from './routing_for_navbar/notices/announcements/announcements.component';
+import { RecruitmentsComponent } from './routing_for_navbar/notices/recruitments/recruitments.component';
+import { CircularsComponent } from './routing_for_navbar/notices/circulars/circulars.component';
+import { EventsComponent } from './routing_for_navbar/notices/events/events.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +48,11 @@ import { WhoComponent } from './routing_for_navbar/who/who.component';
     RolesComponent,
     AgenciesComponent,
     OrganisationComponent,
-    WhoComponent
+    WhoComponent,
+    AnnouncementsComponent,
+    RecruitmentsComponent,
+    CircularsComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,

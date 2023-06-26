@@ -10,6 +10,10 @@ import { AgenciesComponent } from './routing_for_navbar/agencies/agencies.compon
 import { OrganisationComponent } from './routing_for_navbar/organisation/organisation.component';
 import { WhoComponent } from './routing_for_navbar/who/who.component';
 import { RolesComponent } from './routing_for_navbar/roles/roles.component';
+import { AnnouncementsComponent } from './routing_for_navbar/notices/announcements/announcements.component';
+import { RecruitmentsComponent } from './routing_for_navbar/notices/recruitments/recruitments.component';
+import { CircularsComponent } from './routing_for_navbar/notices/circulars/circulars.component';
+import { EventsComponent } from './routing_for_navbar/notices/events/events.component';
 const routes: Routes = [
 {path:'profile',component:ProfileComponent},
 {path:'mission',component:MissionComponent},
@@ -20,6 +24,11 @@ const routes: Routes = [
 {path:'organisation',component:OrganisationComponent},
 {path:'who',component:WhoComponent},
 {path:'roles',component:RolesComponent},
+{path:'announcements',component:AnnouncementsComponent},
+{path:'recruitments',component:RecruitmentsComponent},
+{path:'circulars',component:CircularsComponent},
+{path:'events',component:EventsComponent},
+
 
 
 
