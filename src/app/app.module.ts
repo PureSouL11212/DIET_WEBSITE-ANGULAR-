@@ -48,6 +48,10 @@ import { SubmitComponent } from './routing_for_navbar/Grievance/submit/submit.co
 import { GsComponent } from './routing_for_navbar/Grievance/gs/gs.component';
 import { LoksabhaComponent } from './routing_for_navbar/parliaments/loksabha/loksabha.component';
 import { RajyasabhaComponent } from './routing_for_navbar/parliaments/rajyasabha/rajyasabha.component';
+import { ExternallinksComponent } from './routing_for_navbar/importantlinks/externallinks/externallinks.component';
+import { InternallinksComponent } from './routing_for_navbar/importantlinks/internallinks/internallinks.component';
+import { GeneralcontactComponent } from './routing_for_navbar/contactus/generalcontact/generalcontact.component';
+import { SupportComponent } from './routing_for_navbar/contactus/support/support.component';
 
 @NgModule({
   declarations: [
@@ -97,6 +101,10 @@ import { RajyasabhaComponent } from './routing_for_navbar/parliaments/rajyasabha
     GsComponent,
     LoksabhaComponent,
     RajyasabhaComponent,
+    ExternallinksComponent,
+    InternallinksComponent,
+    GeneralcontactComponent,
+    SupportComponent,
     
   ],
   imports: [
