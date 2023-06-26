@@ -25,6 +25,7 @@
     color: white;
     background-color: #087959;
     border-color: #087959;
+     cursor: pointer; 
   }
   
   .strong{
@@ -32,8 +33,9 @@
      border-radius: 5px;
   }
     .strong:hover{
-      background-color: #9c5c0e;
+      background-color: #000000;
       color: white;
+      cursor: pointer;
       
     }
   
