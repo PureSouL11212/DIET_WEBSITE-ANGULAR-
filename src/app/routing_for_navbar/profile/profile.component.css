@@ -20,6 +20,12 @@
   height: auto;
   margin-top: -16px; /* Adjust this value to shift the image upward */
 }
+.paragraph-text a{
+  border: 2px solid rgb(62, 149, 54);
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 
 
