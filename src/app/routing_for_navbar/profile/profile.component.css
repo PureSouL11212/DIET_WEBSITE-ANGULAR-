@@ -25,6 +25,12 @@
   border-radius: 6px;
   text-decoration: none;
   cursor: pointer;
+  color: white;
+  background-color: #198754;
+}
+.paragraph-text a:hover{
+  color:black;
+  background-color: rgb(67, 197, 78);
 }
 
 
