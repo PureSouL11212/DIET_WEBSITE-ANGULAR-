@@ -1,4 +1,4 @@
-/* .container {
+ .container {
   display: flex;
   align-items: left;
   border: 2px solid red;
@@ -26,4 +26,6 @@
     flex-basis: 50%;
   }
 }
- */
+ .video-section video{
+  margin:20px;
+ }
