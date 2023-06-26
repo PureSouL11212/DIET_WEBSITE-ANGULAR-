@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { PhotoComponent } from './photo/photo.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { PdgComponent } from './pdg/pdg.component';
+import { ImageLayoutComponent } from './image-layout/image-layout.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PdgComponent } from './pdg/pdg.component';
     HomeComponent,
     PhotoComponent,
     SlideshowComponent,
-    PdgComponent
+    PdgComponent,
+    ImageLayoutComponent
   ],
   imports: [
     BrowserModule,
