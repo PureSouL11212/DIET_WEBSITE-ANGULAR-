@@ -7,8 +7,8 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 })
 export class ImageSliderComponent implements OnInit, OnDestroy {
   images: string[] = [
-    'assets/img/slider1.jpg',
-    'assets/img/slider1.jpg',
+    'assets/img/building.jpeg',
+    'assets/img/maam.jpg',
     'assets/img/banner.png'
   ];
   currentImage!: string;
