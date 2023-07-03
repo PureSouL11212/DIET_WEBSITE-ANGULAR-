@@ -6,7 +6,9 @@
     background-color: #ececec;
     padding: 10px;
   }
-  
+  .pip{
+    font-size:16px;
+  }
   .cont1 {
     flex: 1;
     margin: 10px;
@@ -31,7 +33,9 @@
     color: rgb(0, 0, 0);
     background-color: white;
   }
-
+.diet{
+  text-align: center;
+}
   
   .image-box {
     border: 1px solid #ccc;

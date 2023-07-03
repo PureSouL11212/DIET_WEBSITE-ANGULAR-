@@ -1,11 +1,10 @@
-.lion1 {
+/* .lion1 {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
     width: 95%;
     height: 82px;
     margin: 24px;
-   /*  margin-right: 40px; */
   }
   
   .one img {
@@ -13,7 +12,6 @@
   }
   
   .two {
-    /* display: flex; */
     flex-direction: column;
     align-items: flex-start;
   }
@@ -28,5 +26,33 @@
   
   .four img {
     max-width: 100%;
+  }
+   */
+
+
+   /* .lion1{
+    
+    padding: 0px 20px;
+    background-color: rgb(41, 147, 11);
+    text-align: center;
+   } */
+   
+
+   .lion1 {
+    padding: 0px 20px;
+    background-color: rgb(37, 157, 63);
+    text-align: center;
+    margin-top: 20px; /* Adjust the value as per your requirement */
+    margin-bottom:-15px;
+  }
+  
+  .one {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .national_emblem {
+    max-width: 100%;
+    height: auto;
   }
   
