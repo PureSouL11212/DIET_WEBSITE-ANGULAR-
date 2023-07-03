@@ -80,17 +80,6 @@ const routes: Routes = [
 {path:'externallinks',component:ExternallinksComponent},
 {path:'generalc',component:GeneralcontactComponent},
 {path:'supportc',component:SupportComponent},
-
-
-
-
-
-
-
-
-
-
-
 ];
 
 @NgModule({
