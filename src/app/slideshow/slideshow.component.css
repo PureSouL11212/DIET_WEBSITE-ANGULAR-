@@ -36,4 +36,25 @@
       height: auto;
     }
   }
-  
+
+  .container a button {
+
+    text-align: center;
+    border-radius: 10px;
+    
+    color: rgb(0, 0, 0);
+  }
+
+  .container a button:hover{
+    cursor: pointer;
+background-color: #03c58e;
+color:rgb(255, 255, 255);
+
+
+  }
+  .container a button img{
+    height: 20px;
+    
+  }
+
+

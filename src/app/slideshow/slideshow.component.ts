@@ -10,7 +10,7 @@ export class SlideshowComponent {
     'Admission Notice 2023-2024',
     'Compilation of Research Studies 2019-2022',
     'Additional message 1',
-    '',
+    
   ];
   messages2: string[] = [
     'State Level Teachers Conference',
