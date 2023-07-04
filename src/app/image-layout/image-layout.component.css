@@ -1,31 +1,14 @@
- .container {
+.photo-section {
   display: flex;
-  align-items: left;
-  border: 2px solid red;
-  width: 100%;
-}
-.row img{
-  height:20px
-}
-.image-wrapper {
-  text-align: center;
-  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
-.video-section {
+.row img {
+  width:  329px;
+    height: 259px;
+    margin-right: 29px
+}
+.row h3{
   text-align: center;
-  margin-top: 20px;
 }
-
-@media (max-width: 767px) {
-  .col-md-4 {
-    flex-basis: 100%;
-  }
-  
-  .col-md-6 {
-    flex-basis: 50%;
-  }
-}
- .video-section video{
-  margin:20px;
- }
