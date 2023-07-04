@@ -5,7 +5,14 @@
     align-items: center; /* Center the content horizontally on mobile devices */
     background-color: #087959;
   }
-  
+  .mid button img{
+    height:24px;
+    margin-bottom: -5px;
+  }
+  .mid button:hover{
+    color: black;
+    background-color: #05f8b3;
+  }
   .navbar {
     display: flex;
     flex-wrap: wrap; /* Allow navbar items to wrap to the next line on smaller screens */
