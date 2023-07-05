@@ -40,6 +40,7 @@ import { InternallinksComponent } from './routing_for_navbar/importantlinks/inte
 import { ExternallinksComponent } from './routing_for_navbar/importantlinks/externallinks/externallinks.component';
 import { GeneralcontactComponent } from './routing_for_navbar/contactus/generalcontact/generalcontact.component';
 import { SupportComponent } from './routing_for_navbar/contactus/support/support.component';
+import { Aboutus1Component } from './routing_for_navbar/aboutus1/aboutus1.component';
 const routes: Routes = [
 {path:'profile',component:ProfileComponent},
 {path:'mission',component:MissionComponent},
@@ -80,6 +81,7 @@ const routes: Routes = [
 {path:'externallinks',component:ExternallinksComponent},
 {path:'generalc',component:GeneralcontactComponent},
 {path:'supportc',component:SupportComponent},
+{path:'aboutus1',component:Aboutus1Component},
 ];
 
 @NgModule({

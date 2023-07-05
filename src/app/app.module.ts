@@ -53,6 +53,7 @@ import { InternallinksComponent } from './routing_for_navbar/importantlinks/inte
 import { GeneralcontactComponent } from './routing_for_navbar/contactus/generalcontact/generalcontact.component';
 import { SupportComponent } from './routing_for_navbar/contactus/support/support.component';
 import { BottomnavbarComponent } from './bottomnavbar/bottomnavbar.component';
+import { Aboutus1Component } from './routing_for_navbar/aboutus1/aboutus1.component';
 
 @NgModule({
   declarations: [
@@ -107,6 +108,7 @@ import { BottomnavbarComponent } from './bottomnavbar/bottomnavbar.component';
     GeneralcontactComponent,
     SupportComponent,
     BottomnavbarComponent,
+    Aboutus1Component,
     
   ],
   imports: [
