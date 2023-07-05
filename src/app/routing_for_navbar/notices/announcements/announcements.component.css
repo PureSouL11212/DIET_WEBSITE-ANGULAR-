@@ -1,0 +1,43 @@
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.image {
+    text-align: center;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: -15px;
+  
+}
+.row_one{
+    width: 70%;
+    margin-top: 13px;
+    border-radius: 10px;
+    border: 2px solid rgb(102, 199, 144);
+
+
+}
+.header h2{
+    text-decoration: underline;
+    color: rgb(104, 121, 78);
+}
+
+
+.row_one{
+background-color: rgb(173, 232, 212);
+}
+
+.info ul li {
+    font-size:17px;
+    
+    padding: 10px 34px;
+    font-style: initial;
+    font-weight: 500;
+}
