@@ -64,10 +64,6 @@
     color: white;
     margin-top: 10px;
   }
-
-
-
-
 .pdf a {
     border: 2px solid green;
     padding: 7px 0px;
@@ -76,9 +72,7 @@
     border-radius: 7px;
     background-color:#209d62
 }
-
-
-  .pdf a img{
+.pdf a img{
     height: 30px;
     margin-bottom:-5px;
   }
