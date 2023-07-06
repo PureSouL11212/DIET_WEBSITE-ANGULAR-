@@ -42,6 +42,7 @@ import { GeneralcontactComponent } from './routing_for_navbar/contactus/generalc
 import { SupportComponent } from './routing_for_navbar/contactus/support/support.component';
 import { Aboutus1Component } from './routing_for_navbar/aboutus1/aboutus1.component';
 import { AdmComponent } from './routing_for_navbar/adm/adm.component';
+import { Program6Component } from './routing_for_navbar/program6/program6.component';
 const routes: Routes = [
 {path:'profile',component:ProfileComponent},
 {path:'mission',component:MissionComponent},
@@ -84,6 +85,8 @@ const routes: Routes = [
 {path:'supportc',component:SupportComponent},
 {path:'aboutus1',component:Aboutus1Component},
 {path:'adm',component:AdmComponent},
+{path:'p6',component:Program6Component},
+
 
 
 
