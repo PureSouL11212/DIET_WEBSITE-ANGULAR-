@@ -54,6 +54,7 @@ import { GeneralcontactComponent } from './routing_for_navbar/contactus/generalc
 import { SupportComponent } from './routing_for_navbar/contactus/support/support.component';
 import { BottomnavbarComponent } from './bottomnavbar/bottomnavbar.component';
 import { Aboutus1Component } from './routing_for_navbar/aboutus1/aboutus1.component';
+import { AdmComponent } from './routing_for_navbar/adm/adm.component';
 
 @NgModule({
   declarations: [
@@ -109,6 +110,7 @@ import { Aboutus1Component } from './routing_for_navbar/aboutus1/aboutus1.compon
     SupportComponent,
     BottomnavbarComponent,
     Aboutus1Component,
+    AdmComponent,
     
   ],
   imports: [
