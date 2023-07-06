@@ -66,13 +66,18 @@
   }
 .pdf a {
     border: 2px solid green;
-    padding: 7px 0px;
+    padding: 7px 9px;
     text-decoration: none;
     color: white;
     border-radius: 7px;
     background-color:#209d62
 }
+.pdf a:hover{
+    border: 2px solid lightgreen;
+    color: black;
+    background-color:white;
+}
 .pdf a img{
-    height: 30px;
-    margin-bottom:-5px;
+    height: 33px;
+    margin-bottom:-11px;
   }

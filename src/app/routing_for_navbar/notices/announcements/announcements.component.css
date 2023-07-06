@@ -72,6 +72,11 @@
     border-radius: 7px;
     background-color:#209d62
 }
+.pdf a:hover{
+  border: 2px solid lightgreen;
+  color: black;
+  background-color:white;
+}
 .pdf a img{
     height: 30px;
     margin-bottom:-5px;
