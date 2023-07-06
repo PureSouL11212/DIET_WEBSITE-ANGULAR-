@@ -1,1 +1,63 @@
-<app-profile></app-profile>
+<div class="row">
+  <div class="image">
+    <img src="/assets/img/maam.jpg" alt="" class="responsive-image" />
+  </div>
+</div>
+
+<div class="row_one">
+  <div class="header">
+    <h2 class="row">ROLES OF DIET</h2>
+
+    <div class="info">
+      <ul>
+        <li>conducts 2-year D.EL, ED course</li>
+        <li>
+          Conducts short term need-based in-service training/Workshop especially
+          at the primary level to H.Ms, &amp; Primary Teachers
+        </li>
+        <li>
+          Conducts Orientation programmes for other functionaries working for
+          teacher education e.g. BRCs, CRCs, SMCs, Aaganwadi workers, etc.
+        </li>
+        <li>
+          Monitors and supervises educational institutions in their
+          jurisdiction.
+        </li>
+        <li>
+          Extends support for professional development of teacher educators
+        </li>
+        <li>
+          Develops locally relevant Teaching Learning Materials (TLM),
+          evaluation tools, etc.
+        </li>
+        <li>
+          Develops Training Modules, Curriculum, and syllabus for in-service
+          teacher training.
+        </li>
+        <li>
+          Extend support in writing textbooks, moderation & evaluation of
+          Questions.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- photo gallery -->
+
+<div class="container">
+    <div class="row">
+        <h3>Photo Gallery</h3>
+    </div>
+    <div class="photo-grid">
+      <div *ngFor="let photo of photos" class="photo-item">
+        <img [src]="photo.url" [alt]="photo.caption">
+      </div>
+    </div>
+  </div>
+  
+  
+
+<app-footerimage></app-footerimage>
+<app-bottomnavbar></app-bottomnavbar>
+<app-footer></app-footer>

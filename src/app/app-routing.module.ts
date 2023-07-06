@@ -85,6 +85,10 @@ const routes: Routes = [
 {path:'aboutus1',component:Aboutus1Component},
 {path:'adm',component:AdmComponent},
 
+
+
+
+
 ];
 
 @NgModule({
