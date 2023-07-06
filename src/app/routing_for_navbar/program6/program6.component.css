@@ -41,3 +41,39 @@ background-color: rgb(173, 232, 212);
     font-style: initial;
     font-weight: 500;
 }
+.row1 a {
+    border: 2px solid green;
+    padding: 2px 9px;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+    background-color:#209d62
+}
+.row1 a:hover{
+    border: 2px solid lightgreen;
+    color: black;
+    background-color:white;
+}
+.row1 a img{
+    height: 27px;
+    margin-bottom:-9px;
+  }
+  .row1{
+    border: 2px solid rgb(107, 209, 76);
+    border-radius: 12px;
+    margin-bottom:-20px;
+    margin-top:20px;
+    margin-left: 0px;
+  }
+  .row h3{
+    color: #209d62;
+    text-decoration: underline;
+     font-weight: 800;
+     font-size: 28px;
+  }
+  .row1 p{
+    margin-left: 20px;
+  }
+  .row1 a {
+    margin-left: 20px; 
+  }
