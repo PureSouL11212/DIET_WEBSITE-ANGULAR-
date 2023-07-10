@@ -43,6 +43,8 @@ import { SupportComponent } from './routing_for_navbar/contactus/support/support
 import { Aboutus1Component } from './routing_for_navbar/aboutus1/aboutus1.component';
 import { AdmComponent } from './routing_for_navbar/adm/adm.component';
 import { Program6Component } from './routing_for_navbar/program6/program6.component';
+import { ManpowersComponent } from './routing_for_navbar/manpowers/manpowers.component';
+
 const routes: Routes = [
 {path:'profile',component:ProfileComponent},
 {path:'mission',component:MissionComponent},
@@ -86,6 +88,8 @@ const routes: Routes = [
 {path:'aboutus1',component:Aboutus1Component},
 {path:'adm',component:AdmComponent},
 {path:'p6',component:Program6Component},
+{path:'manpowers',component:ManpowersComponent},
+
 
 
 

@@ -56,6 +56,7 @@ import { BottomnavbarComponent } from './bottomnavbar/bottomnavbar.component';
 import { Aboutus1Component } from './routing_for_navbar/aboutus1/aboutus1.component';
 import { AdmComponent } from './routing_for_navbar/adm/adm.component';
 import { Program6Component } from './routing_for_navbar/program6/program6.component';
+import { ManpowersComponent } from './routing_for_navbar/manpowers/manpowers.component';
 
 @NgModule({
   declarations: [
@@ -113,6 +114,7 @@ import { Program6Component } from './routing_for_navbar/program6/program6.compon
     Aboutus1Component,
     AdmComponent,
     Program6Component,
+    ManpowersComponent,
     
   ],
   imports: [
