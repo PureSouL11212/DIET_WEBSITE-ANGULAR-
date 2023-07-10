@@ -7,7 +7,7 @@
     padding: 10px;
   }
   .pip{
-    font-size:16px;
+    font-size:18px;
   }
   .cont1 {
     flex: 1;
@@ -28,6 +28,8 @@
     background-color: #198754;
     text-align: center;
     color: rgb(255, 255, 255);
+    padding: 5px 7px;
+
   }
   .but a:hover{
     color: rgb(0, 0, 0);
@@ -55,3 +57,8 @@
     height:44px;
 width:47px;
 }  
+.strong1{
+  font-size: 20px;
+  color: #198754;
+  text-decoration: underline;
+}
