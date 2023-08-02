@@ -135,3 +135,8 @@
     cursor: pointer;
     background-color: #087959;
   }
+  .info-box{
+    background-color: #9be5d0;
+    border:2px solid #11d19a;
+    border-radius:20px
+  }
