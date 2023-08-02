@@ -57,6 +57,7 @@ import { Aboutus1Component } from './routing_for_navbar/aboutus1/aboutus1.compon
 import { AdmComponent } from './routing_for_navbar/adm/adm.component';
 import { Program6Component } from './routing_for_navbar/program6/program6.component';
 import { ManpowersComponent } from './routing_for_navbar/manpowers/manpowers.component';
+import { ImportantComponent } from './important/important.component';
 
 @NgModule({
   declarations: [
@@ -115,6 +116,7 @@ import { ManpowersComponent } from './routing_for_navbar/manpowers/manpowers.com
     AdmComponent,
     Program6Component,
     ManpowersComponent,
+    ImportantComponent,
     
   ],
   imports: [
