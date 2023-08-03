@@ -128,15 +128,17 @@
   }
 
   .info-box h2{
-    color:red
+    color:white;
+    background-color:#087959
   }
   .info-box h2:hover{
-    color:white;
+    color:red;
     cursor: pointer;
-    background-color: #087959;
+    /* background-color: #05f8b3; */
+    background-color: #9be5d0;
+    border:2px solid #000000;
   }
   .info-box{
-    background-color: #9be5d0;
-    border:2px solid #11d19a;
+    /* background-color: #087959; */
     border-radius:20px
   }
