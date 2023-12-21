@@ -1,6 +1,10 @@
-
 <nav style="text-align: center;">
-  <ul>
+  <!-- Toggle button for small screens -->
+  <button id="toggle-menu-button" (click)="toggleMenu()" *ngIf="isSmallScreen">
+    Toggle Menu
+  </button>
+
+  <ul *ngIf="!isSmallScreen">
     <li>
       <a routerLink="/">Home</a>
     </li>
@@ -8,142 +12,54 @@
       <a>About Us</a>
       <ul class="dropdown">
         <li>
-          <a routerLink="aboutus1"
-            ><i class="bi bi-caret-right-fill"></i>Profile</a
-          >
+          <a routerLink="aboutus1">
+            <i class="bi bi-caret-right-fill"></i>Profile
+          </a>
         </li>
-        <!-- <li>
-          <a routerLink="mission"
-            ><i class="bi bi-caret-right-fill"></i>Mission / Vision</a
-          >
-        </li>
-        <li>
-          <a routerLink="history"
-            ><i class="bi bi-caret-right-fill"></i>History / Backgrounds</a
-          >
-        </li> -->
-        <!-- <li> -->
-          <!-- <a routerLink="cells"
-            ><i class="bi bi-caret-right-fill"></i>Departments / Division /
-            Cells</a
-          >
-        </li>
-        <li>
-          <a routerLink="roles"
-            ><i class="bi bi-caret-right-fill"></i>Roles / Functions</a
-          >
-        </li>
-        <li>
-          <a routerLink="agencies"
-            ><i class="bi bi-caret-right-fill"></i>Agencies under Administrative
-            Control</a
-          >
-        </li> -->
-        <!-- <li>
-          <a routerLink="organisation"
-            ><i class="bi bi-caret-right-fill"></i>Organisation Structure</a
-          >
-        </li> -->
-        <!-- <li>
-          <a routerLink="who"
-            ><i class="bi bi-caret-right-fill"></i>Who's who</a
-          >
-        </li> -->
+        <!-- Add more sub-menu items here -->
       </ul>
     </li>
     <li>
       <a>Courses Offered</a>
       <ul class="dropdown">
         <li>
-          <a routerLink="announcements"
-            ><i class="bi bi-caret-right-fill"></i>Diploma_In_Elementary_Education</a
-          >
+          <a routerLink="announcements">
+            <i class="bi bi-caret-right-fill"></i>Diploma_In_Elementary_Education
+          </a>
         </li>
-        <!-- <li>
-          <a routerLink="recruitments"
-            ><i class="bi bi-caret-right-fill"></i>Recruitments</a
-          >
-        </li>
-        <li>
-          <a routerLink="circulars"
-            ><i class="bi bi-caret-right-fill"></i>Circulars</a
-          >
-        </li>
-        <li>
-          <a routerLink="events"
-            ><i class="bi bi-caret-right-fill"></i>Events</a
-          >
-        </li> -->
+        <!-- Add more sub-menu items here -->
       </ul>
     </li>
     <li>
       <a>Faculty Corner</a>
       <ul class="dropdown">
-        <!-- <li>
-          <a routerLink="whats"
-            ><i class="bi bi-caret-right-fill"></i>What's New</a
-          >
+        <li>
+          <a routerLink="photoss">
+            <i class="bi bi-caret-right-fill"></i>Photo Gallery
+          </a>
         </li>
         <li>
-          <a routerLink="awards"
-            ><i class="bi bi-caret-right-fill"></i>Awards</a
-          >
-        </li> -->
-        <li>
-          <a routerLink="photoss"
-            ><i class="bi bi-caret-right-fill"></i>Photo Gallery</a
-          >
+          <a routerLink="video">
+            <i class="bi bi-caret-right-fill"></i>Video Gallery
+          </a>
         </li>
-        <li>
-          <a routerLink="video"
-            ><i class="bi bi-caret-right-fill"></i>Video Gallery</a
-          >
-        </li>
-        <!-- <li>
-          <a routerLink="press"
-            ><i class="bi bi-caret-right-fill"></i>Press Releases</a
-          >
-        </li>
-        <li>
-          <a routerLink="speeches"
-            ><i class="bi bi-caret-right-fill"></i>Speeches</a
-          >
-        </li>
-        <li>
-          <a routerLink="ebook"
-            ><i class="bi bi-caret-right-fill"></i>E-Book</a
-          >
-        </li> -->
+        <!-- Add more sub-menu items here -->
       </ul>
     </li>
-    <!-- <li>
-      <a>Student Corner</a>
-      <ul class="dropdown">
-        <li>
-          <a routerLink="RIA"
-            ><i class="bi bi-caret-right-fill"></i>Search By Name</a
-          >
-        </li>
-        <li>
-          <a routerLink="otr"
-            ><i class="bi bi-caret-right-fill"></i>Search By Batch</a
-          >
-        </li>
-      </ul>
-    </li> -->
     <li>
       <a>Publication</a>
       <ul class="dropdown">
         <li>
-          <a routerLink="adm"
-            ><i class="bi bi-caret-right-fill"></i>Admission NOTICE 2021-2022</a
-          >
+          <a routerLink="adm">
+            <i class="bi bi-caret-right-fill"></i>Admission NOTICE 2021-2022
+          </a>
         </li>
         <li>
-          <a routerLink="/tenders/Awarded"
-            ><i class="bi bi-caret-right-fill"></i>Awarded Tenders</a
-          >
+          <a routerLink="/tenders/Awarded">
+            <i class="bi bi-caret-right-fill"></i>Awarded Tenders
+          </a>
         </li>
+        <!-- Add more sub-menu items here -->
       </ul>
     </li>
     <li>
@@ -152,86 +68,63 @@
     <li>
       <a href="">Messages</a>
       <ul class="dropdown">
-        
+        <!-- Add sub-menu items here -->
       </ul>
     </li>
     <li>
       <a href="">Student Enquiry</a>
       <ul class="dropdown">
-        
-        
+        <!-- Add sub-menu items here -->
       </ul>
     </li>
     <li>
       <a>Documents</a>
       <ul class="dropdown">
         <li>
-          <a routerLink="submit"
-            ><i class="bi bi-caret-right-fill"></i>Admission</a
-          >
+          <a routerLink="submit">
+            <i class="bi bi-caret-right-fill"></i>Admission
+          </a>
         </li>
         <li>
-          <a routerLink="manpowers"
-            ><i class="bi bi-caret-right-fill"></i>Man Power</a
-          >
-        </li>
-        <!-- <li>
-          <a routerLink="gs"
-            ><i class="bi bi-caret-right-fill"></i>Prospectus</a
-          >
-        </li> -->
-        <!-- <li>
-          <a routerLink="gs"
-            ><i class="bi bi-caret-right-fill"></i>Budget</a
-          >
+          <a routerLink="manpowers">
+            <i class="bi bi-caret-right-fill"></i>Man Power
+          </a>
         </li>
         <li>
-          <a routerLink="gs"
-            ><i class="bi bi-caret-right-fill"></i>RTI</a
-          >
-        </li> -->
-        <li>
-          <a routerLink="p6"
-            ><i class="bi bi-caret-right-fill"></i>Program</a
-          >
+          <a routerLink="p6">
+            <i class="bi bi-caret-right-fill"></i>Program
+          </a>
         </li>
+        <!-- Add more sub-menu items here -->
       </ul>
     </li>
-  
     <li>
       <a>Important Links</a>
       <ul class="dropdown">
         <li>
-          
-          <a  href="https://www.cbse.gov.in/" >CBSE Official Website 
-            <i class="bi bi-caret-right-fill"></i></a
-          >
+          <a href="https://www.cbse.gov.in/">CBSE Official Website <i class="bi bi-caret-right-fill"></i></a>
         </li>
         <li>
-          <a href="http://sikkim-hrdd.gov.in/">HRDD|Government Of Sikkim
-            <i class="bi bi-caret-right-fill"></i></a
-          >
+          <a href="http://sikkim-hrdd.gov.in/">HRDD|Government Of Sikkim <i class="bi bi-caret-right-fill"></i></a>
         </li>
         <li>
-          <a href="https://www.education.gov.in/">Ministry Of HRD
-            <i class="bi bi-caret-right-fill"></i></a
-          >
+          <a href="https://www.education.gov.in/">Ministry Of HRD <i class="bi bi-caret-right-fill"></i></a>
         </li>
         <li>
-          <a href="https://sikkim.gov.in/">Sikkim Government Website
-            <i class="bi bi-caret-right-fill"></i></a
-          >
+          <a href="https://sikkim.gov.in/">Sikkim Government Website <i class="bi bi-caret-right-fill"></i></a>
         </li>
+        <!-- Add more sub-menu items here -->
       </ul>
     </li>
     <li>
       <a>Contact Us</a>
       <ul class="dropdown">
         <li>
-          <a routerLink="generalc"
-            ><i class="bi bi-caret-right-fill"></i>General Contact</a>
+          <a routerLink="generalc">
+            <i class="bi bi-caret-right-fill"></i>General Contact
+          </a>
         </li>
-      
+        <!-- Add more sub-menu items here -->
       </ul>
     </li>
   </ul>

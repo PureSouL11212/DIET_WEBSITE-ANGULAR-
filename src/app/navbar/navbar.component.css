@@ -1,7 +1,6 @@
-nav ul {
+/* nav ul {
     list-style-type: none;
-    /* margin: 0; */
-    padding: 0px 2px;
+    padding: 0;
     background-color: #004709;
   }
   
@@ -43,3 +42,76 @@ nav ul {
   nav ul ul.dropdown li a:hover {
     background-color: #528854;
   }
+   */
+   /* Styles for the toggle button */
+   .toggle-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .bar {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    transition: 0.4s;
+  }
+  
+  /* Rotate the bars to create an 'X' icon for the button when active */
+  .toggle-button.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .toggle-button.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .toggle-button.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  /* Styles for the dropdown menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #004709;
+  }
+  nav ul li {
+    display: inline-block;
+    position: relative;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li:hover > ul.dropdown {
+    display: block;
+  }
+  nav ul ul.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    min-width: 200px;
+    z-index: 1;
+  }
+  nav ul ul.dropdown li {
+    display: block;
+    background-color: #470013;
+  }
+  nav ul ul.dropdown li a {
+    padding: 10px 20px;
+    color: rgb(255, 245, 245);
+  }
+  
+  nav ul ul.dropdown li a:hover {
+    background-color: #528854;
+  }
+  
